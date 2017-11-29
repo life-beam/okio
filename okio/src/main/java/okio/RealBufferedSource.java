@@ -21,7 +21,7 @@ import java.io.InputStream;
 import java.nio.charset.Charset;
 import javax.annotation.Nullable;
 
-import static okio.Util.checkOffsetAndCount;
+import static okio.OkioUtil.checkOffsetAndCount;
 
 final class RealBufferedSource implements BufferedSource {
   public final Buffer buffer = new Buffer();

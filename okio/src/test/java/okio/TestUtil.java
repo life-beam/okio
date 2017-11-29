@@ -35,7 +35,7 @@ final class TestUtil {
   }
 
   static void assertByteArrayEquals(String expectedUtf8, byte[] b) {
-    assertEquals(expectedUtf8, new String(b, Util.UTF_8));
+    assertEquals(expectedUtf8, new String(b, OkioUtil.UTF_8));
   }
 
   static ByteString randomBytes(int length) {

@@ -31,7 +31,7 @@ import org.junit.runners.Parameterized.Parameters;
 
 import static java.util.Arrays.asList;
 import static okio.TestUtil.repeat;
-import static okio.Util.UTF_8;
+import static okio.OkioUtil.UTF_8;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.fail;
 

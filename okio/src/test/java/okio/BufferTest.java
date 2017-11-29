@@ -27,7 +27,7 @@ import org.junit.Test;
 import static java.util.Arrays.asList;
 import static okio.TestUtil.bufferWithRandomSegmentLayout;
 import static okio.TestUtil.repeat;
-import static okio.Util.UTF_8;
+import static okio.OkioUtil.UTF_8;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
